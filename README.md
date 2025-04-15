@@ -6,6 +6,15 @@
 
 With a user-friendly and colorful interactive interface ✨, it offers a smooth experience for both professional penetration testers 👨‍💻 and general tech users 👾.
 
+🚀 Features
+
+- 🌐 **DNS Enumeration** (A, MX, TXT, NS records)
+- 🕵️‍♂️ **Subdomain Scanning**
+- ⚡ **Top 1000 Port Scan**
+- 🧪 **Deep Port Scan with OS Detection**
+- 🔍 **Vulnerability Detection via Nmap Scripts**
+- 🎨 **Interactive CLI** with spinners, colorful results, and visual effects
+
 ---
 
 ![pipeline](https://img.shields.io/badge/pipeline-passed-brightgreen)
