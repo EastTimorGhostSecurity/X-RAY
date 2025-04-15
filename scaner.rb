@@ -1,12 +1,10 @@
 #!/usr/bin/env ruby
 
-# Configuration
 VERSION = "1.0.0"
 TIMEOUT = 5
 THREADS = 4
 USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0"
 
-# Colors
 RED = "\033[0;31m"
 GREEN = "\033[0;32m"
 YELLOW = "\033[0;33m"
@@ -87,10 +85,10 @@ end
 
 def show_status(type, message)
   case type
-  when 0 then puts "#{GREEN}[✓] #{message}#{NC}"  # Success
-  when 1 then puts "#{RED}[✗] #{message}#{NC}"    # Error
-  when 2 then puts "#{YELLOW}[!] #{message}#{NC}" # Warning
-  when 3 then puts "#{BLUE}[+] #{message}#{NC}"   # Info
+  when 0 then puts "#{GREEN}[✓] #{message}#{NC}" 
+  when 1 then puts "#{RED}[✗] #{message}#{NC}"    
+  when 2 then puts "#{YELLOW}[!] #{message}#{NC}" 
+  when 3 then puts "#{BLUE}[+] #{message}#{NC}"   
   end
 end
 
